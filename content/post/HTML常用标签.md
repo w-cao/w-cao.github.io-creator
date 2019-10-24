@@ -16,6 +16,7 @@ draft: false
 4. rel=noopener
 
 *  作用
+  
 1. 跳转外部页面
 2. 跳转内部锚点
 3. 跳转到邮箱或电话等
@@ -23,45 +24,54 @@ draft: false
 ## a的href的取值
 
 *  网址
+  
 1. https://google.com
 2. http://google.com
 3. //google.com
    
 *  路径
+  
 1. /a/b/c 以及 a/b/c
 2. index.html 以及 ./index.html
 
 *  伪协议
+  
 1. javascript:代码;
 2. mailto:邮箱
 3. tel:手机号
    
 *  id
+  
 - [x] href=#xxx
 
 ## a的target的取值
 
 *  内置名字
+  
 1. _blank
 2. _top
 3. _parent
 4. _self
 
 *  程序远命名
+  
 1. window的name
 2. iframe的name
    
 ## a的download
 
 * 作用
+  
 - [x] 不是打开页面, 而是下载页面
 
 * 问题
+  
 - [x] 不是所有浏览器都支持, 尤其是手机浏览器可能不支持
 
 # table 标签
 
 *  相关的标签
+  
 1. table
 2. thead
 3. tbody
@@ -71,6 +81,7 @@ draft: false
 7. th
 
 *  相关的样式
+  
 1. table-layout
 2. border-collapse
 3. border-spacing
@@ -113,11 +124,13 @@ draft: false
 # 其他输入标签
 
 *  标签
+  
 1. select + option
 2. textarea
 3. label
    
 *  注意事项
+  
 1. 一般不监听input的click事件
 2. form里面的input要有name
 3. form里面放一个type=submit才能触发submit事件
@@ -125,6 +138,7 @@ draft: false
 # 其他标签
 
 *  标签
+
 1. video
 2. audio
 3. canvas
